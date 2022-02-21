@@ -3,23 +3,27 @@
 	height: 100vh;
 	display: grid;
 	place-items: center;
+	background-color: var(--background-base);
+
+	.CreateAccount-container {
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+		width: 300px;
+	}
+	.logo {
+		width: 150px;
+		margin-bottom: 48px;
+		justify-self: center;
+		display: none;
+	}
+	.title {
+		font-size: var(--lg);
+		margin-bottom: 36px;
+		text-align: start;
+		color: var(--white);
+	}
 }
-.CreateAccount-container {
-	display: grid;
-	grid-template-rows: auto 1fr auto;
-	width: 300px;
-}
-.logo {
-	width: 150px;
-	margin-bottom: 48px;
-	justify-self: center;
-	display: none;
-}
-.title {
-	font-size: var(--lg);
-	margin-bottom: 36px;
-	text-align: start;
-}
+
 .form {
 	display: flex;
 	flex-direction: column;

@@ -1,6 +1,6 @@
 import React from "react";
 import "@styles/PasswordRecovery.scss";
-
+// import "@hooks/useNavigation.js";
 import logo from "@logos/logo_yard_sale.svg";
 
 const PasswordRecovery = () => {
@@ -16,11 +16,12 @@ const PasswordRecovery = () => {
           <label htmlFor="email" className="label">
             Email address
           </label>
-          <input type="text" id="email" className="input input-email" />
+          <input type="text" id="email" className="input input-email" placeholder="user@email.com" />
           <input
             type="submit"
             value="Confirm"
             className="primary-button login-button"
+            // onClick={() => goTo("/send-email")}
           />
         </form>
       </div>

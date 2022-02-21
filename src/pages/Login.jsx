@@ -27,7 +27,7 @@ const Login = () => {
           <input
             type="text"
             name="email"
-            placeholder="platzi@example.cm"
+            placeholder="user@mail.com"
             className="input input-email"
           />
           <label htmlFor="password" className="label">
@@ -39,7 +39,10 @@ const Login = () => {
             placeholder="*********"
             className="input input-password"
           />
-          <button className="primary-button login-button" onClick={handleSubmit} >
+          <button
+            className="primary-button login-button"
+            onClick={handleSubmit}
+          >
             Log in
           </button>
           <a href="/">Forgot my password</a>

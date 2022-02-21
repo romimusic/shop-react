@@ -24,7 +24,7 @@ const MyAccount = () => {
           <input
             type="submit"
             value="Edit"
-            className="secondary-button login-button"
+            className="primary-button login-button"
           />
         </form>
       </div>
