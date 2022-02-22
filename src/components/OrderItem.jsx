@@ -11,6 +11,8 @@ const OrderItem = ({ product }) => {
     removeFromCart(product);
   }
 
+  console.log(product);
+
   return (
     <div className="OrderItem">
       <figure>

@@ -19,7 +19,7 @@ const ProductItem = ({product}) => {
           <p>{product.title}</p>
         </div>
         <figure onClick={() => handleClick(product)}>
-          <img src={addcartbtn} alt="" />
+          <img src={addcartbtn} alt="Add Product" />
         </figure>
       </div>
     </div>

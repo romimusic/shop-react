@@ -9,6 +9,7 @@
 	top: 60px;
 	border-radius: 6px;
 	border: 1px solid var(--very-light-pink);
+	background-color: var(--background-base);
 }
 .title-container {
 	display: flex;
@@ -30,6 +31,7 @@
 	margin-bottom: 24px;
 	border-radius: 8px;
 	padding: 0 24px;
+	color: var(--background-base);
 }
 .order p:nth-child(1) {
 	display: flex;

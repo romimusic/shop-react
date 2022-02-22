@@ -17,7 +17,7 @@ const Header = () => {
 	};
 	return (
 		<nav>
-			<img src={menu} alt="menu" className="menu" />
+			<img src={menu} alt="menu" className="menu" onClick={handleToggle} />
 			<div className="navbar-left">
 				<img src={logo} alt="logo" className="nav-logo" />
 				<ul>
@@ -44,7 +44,7 @@ const Header = () => {
 			<div className="navbar-right">
 				<ul>
 					<li className="navbar-email" onClick={handleToggle}>
-						platzi@example.com{" "}
+						user@email.com
 					</li>
 					<li
 						className="navbar-shopping-cart"

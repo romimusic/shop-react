@@ -3,7 +3,11 @@
 	grid-template-columns: auto 1fr auto auto;
 	gap: 16px;
 	margin-bottom: 24px;
+	padding: 8px;
 	align-items: center;
+	background-color: var(--white);
+	border-radius: 8px;
+	color: var(--background-base);
 }
 .OrderItem figure {
 	margin: 0;
@@ -15,7 +19,7 @@
 	object-fit: cover;
 }
 .OrderItem p:nth-child(2) {
-	color: var(--very-light-pink);
+	color: var(--background-base);
 }
 .OrderItem p:nth-child(3) {
 	font-size: var(--md);
