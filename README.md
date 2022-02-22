@@ -14,6 +14,7 @@ This is a solution to the design from (https://www.figma.com/proto/bcEVujIzJj5PN
 - JavaScript
 - Babel 
 - Webpack
+- API
 
 ## Overview
 This project is designed thinking in mobile-first principle and using React Library with hooks and context.
@@ -25,8 +26,8 @@ All products are from an API.
 ### Screenshot
 
 
-[Mobile Version](./project/screenshot/mobileVersion.png)
-[Desktop Version](./project/screenshot/desktopVersion.png)
+[Mobile Version](./src/assets/mobileView.png)
+[Desktop Version](./src/assets/desktopView.png)
 
 
 ## Author
