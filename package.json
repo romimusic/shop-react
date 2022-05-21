@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
     "build": "webpack --mode production",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "keywords": [
@@ -28,6 +27,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.3.0",
+    "socket.io": "^4.5.1",
     "webpack": "^5.59.1",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.3.1"
@@ -41,5 +41,12 @@
     "sass-loader": "^12.2.0",
     "style-loader": "^3.3.1"
   },
-  "homepage": "https://romimusic.github.io/react-shop"
+  "homepage": "https://romimusic.github.io/react-shop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romimusic/shop-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romimusic/shop-react/issues"
+  }
 }
